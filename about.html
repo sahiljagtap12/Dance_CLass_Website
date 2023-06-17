@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChoRhythm</title>
+    <link rel="stylesheet" href="mywebsite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.7.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                <li><a href="http://127.0.0.1:5500/mywebsite.html">HOME</a></li>
+                <li><a href="http://127.0.0.1:5500/course.html">COURSE</a></li> 
+                <li><a href="https://www.youtube.com/c/SahilArtWorks/videos" target="_blank">SAHIL ART WORKS</a></li> 
+                <li><a href="http://127.0.0.1:5500/about.html">ABOUT US</a></li>
+                <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+            <div >  <a href="https://www.youtube.com/channel/UC8092KGxaB-x0XQBj9RRBYQ/videos" class="hero-btn" target="_blank"> <b> <h3>Youtube Channel </h3></b></a>
+                <br>
+                <a href="https://www.instagram.com/sahiljagtap/?hl=en" class="hero-btn" target="_blank"> <b><h3> Instagram </h3></b></a> 
+            </div>
+          </div >
+    
+</section>
+
+<section class="aboutus">
+        <div class="aboutus-row">
+        <div class="aboutus-col">
+            <h1>Creating Our World</h1>
+            <h4>
+                Founded in 2017, ChoRhythm is the brainchild of Director & Founder Sahil Jagtap and Nirajan Veer, along with a fantastic team of dancers who are now a part of the professional company at ChoRhythm. The vision has always been to push boundaries in terms of movement and ideas.
+Our online dance lessons are as intense and effective as in a real studio. The most difficult aspect is connecting to you, however after you contact us, we can handle everything. You can look forward to the advice of our instructors, dancing in all styles, as well as a lot of fun.
+            </h4>
+            <a href="" class= "hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="aboutus-col">
+            <img src="aboutusphoto.png" alt="png">
+        </div>
+    </div>
+</section>
+<section>
+    <!-- <div class="slider-box">
+        <div id=""></div>
+        <img src="w7l6Q9m9ef4-HD.jpg">
+        <img src="KxaL-q9-Glc-HD.jpg">
+        <img src="9Xasxz7N09k-HD.jpg">
+    </div>
+</section> -->
+<section class="instructors">
+            <h1>Our Instructors</h1>
+            <div class="row">
+                <div class="Sahilartworks-col">
+                    <img src="KxaL-q9-Glc-HD - Copy.jpg" style="width: 300px;">
+                    <div class="layer">
+                        <h3>Sahil</h3>
+                    </div>
+                </div>
+                <div class="Sahilartworks-col">
+                    <img src="instructor2.jpg" style="width: 300px;">
+                    <div class="layer">
+                        <h3>Aniket</h3>
+                    </div>
+                </div>   
+        
+        </div>
+    
+</section>
+<!-- -----bottom----- -->
+<section class="bottom">
+    <h4>About Us</h4>
+    <p>Created our channel on November 17,2017. We have our accounts on instagram and facebook.</p>
+    <h5>Address:</h5> <p>1/1 Girija Apt, near Swami Smartha Mandir, Sinhagad Road, Nanded Phata Pune-411041</p>
+    <div class="icons">
+        <div style="color: #e84393;">
+        <a href="https://www.instagram.com/sahiljagtap/?hl=en" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+        
+        <!-- <i class="fa-sharp fa-solid fa-inbox-out"></i> -->
+        </div>
+        <div style="color: #e84118;">
+            <a href="https://www.youtube.com/channel/UC8092KGxaB-x0XQBj9RRBYQ/videos" target="_blank"><i class="fa-brands fa-youtube"> </i></a>   
+       
+        </div>
+    </div>
+</section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hidemenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
